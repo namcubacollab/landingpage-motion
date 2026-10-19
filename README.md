@@ -55,4 +55,4 @@ Vercel dùng preset Vite, `npm ci`, `npm run build`, xuất bản `dist/client`.
 
 Production: https://landingpage-motion.vercel.app
 
-Bản production đầu tiên được triển khai bằng Vercel CLI. GitHub push và kết nối tự deploy chưa hoàn tất vì đang chờ quyền xác thực.
+Bản production đầu tiên được triển khai bằng Vercel CLI. GitHub là kho source. Theo lựa chọn của chủ dự án, không kết nối tự deploy; các bản cập nhật Vercel được triển khai thủ công.
