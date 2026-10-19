@@ -1,0 +1,92 @@
+{
+  "project": "Roadster — Điều khiển những lực vô hình",
+  "snapshot": "2026-10-19",
+  "generation_tool": "Built-in image_gen; no external generation CLI",
+  "sources": [
+    {
+      "name": "VnExpress article",
+      "url": "https://vnexpress.net/tesla-roadster-co-gi-dac-biet-ngoai-kha-nang-bay-lon-5134166.html",
+      "author": "Hải Đăng",
+      "published": "2026-10-19 12:36 GMT+7"
+    },
+    {
+      "name": "Tesla Roadster official page",
+      "url": "https://www.tesla.com/roadster",
+      "checked": "2026-10-19"
+    }
+  ],
+  "official_media": [
+    {
+      "file": "public/assets/aero.jpg",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-1-Desktop.jpg",
+      "credit": "Tesla",
+      "use": "hero and active-aero section"
+    },
+    {
+      "file": "public/assets/cockpit.jpg",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-03-Carousel-Slide-4-Desktop.jpg",
+      "credit": "Tesla",
+      "use": "steering chapter"
+    },
+    {
+      "file": "public/assets/world.jpg",
+      "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Roadster-04-World-Desktop.jpg",
+      "credit": "Tesla",
+      "use": "closing image"
+    }
+  ],
+  "generated_media": [
+    {
+      "file": "design/hero-reference.png",
+      "type": "ui-mockup",
+      "use": "art-direction reference, not shipped as page UI"
+    },
+    {
+      "file": "public/assets/exterior.webp",
+      "original": "design/assets/exterior.png",
+      "type": "illustrative exterior",
+      "use": "anatomy before-state and trim explainer"
+    },
+    {
+      "file": "public/assets/cutaway.webp",
+      "original": "design/assets/cutaway-final.png",
+      "type": "AI explanatory schematic",
+      "use": "registered reveal and fan explainer",
+      "limitation": "Not an actual internal construction drawing. Steering shaft removed in final pass to avoid contradicting steer-by-wire."
+    },
+    {
+      "file": "public/assets/carbon.webp",
+      "type": "AI material-surface illustration",
+      "use": "material explorer",
+      "limitation": "Not a physical specimen or a Tesla material sample"
+    },
+    {
+      "file": "public/assets/magnesium.webp",
+      "type": "AI material-surface illustration",
+      "use": "material explorer",
+      "limitation": "Not a physical specimen or a Tesla material sample"
+    },
+    {
+      "file": "public/assets/titanium.webp",
+      "type": "AI material-surface illustration",
+      "use": "material explorer",
+      "limitation": "Not a physical specimen or a Tesla material sample"
+    }
+  ],
+  "brand_assets": {
+    "original": "public/assets/vnexpress.svg",
+    "light_palette_adaptation": "public/assets/vnexpress-light.svg",
+    "source": "existing sibling vcar-story source asset",
+    "note": "Logo geometry preserved; palette adapted for dark background."
+  },
+  "fonts": {
+    "families": [
+      "Barlow Condensed",
+      "Be Vietnam Pro"
+    ],
+    "source": "Google Fonts / fonts.gstatic.com",
+    "delivery": "local TTF files, no runtime third-party font requests"
+  },
+  "rights_status": "Sources and credits recorded. Public/commercial publication clearance has not been established.",
+  "physics_policy": "Airflow, force arrows and priority bars are teaching diagrams; not CFD, telemetry or measured vehicle specifications. Steering ratios are explicitly illustrative."
+}

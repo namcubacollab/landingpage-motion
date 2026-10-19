@@ -1,0 +1,20 @@
+{
+  "playing": {
+    "changed_pixels": 12770,
+    "comparison_area": [
+      522,
+      194,
+      1222,
+      660
+    ]
+  },
+  "paused": {
+    "changed_pixels": 0,
+    "comparison_area": [
+      522,
+      194,
+      1222,
+      660
+    ]
+  }
+}

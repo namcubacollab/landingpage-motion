@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "browser": "Codex in-app browser",
+  "preview": "http://127.0.0.1:4174/",
+  "freshSmokeSince": "2026-10-19T11:10:07Z",
+  "result": "passed",
+  "primaryFlows": ["reading navigation", "reveal slider keyboard limits", "direct reveal dragging", "five hotspots", "fan on/off", "sealed/leaking chamber", "aero mode and explanation", "steering mode, negative angle and reset", "three material states", "three trim boundaries", "dialog Escape and focus return", "source accordions", "play/pause"],
+  "freshErrors": 0,
+  "freshWarnings": 0,
+  "brokenInternalAnchors": 0,
+  "duplicateIds": 0,
+  "failedLoadedImages": 0,
+  "viewportEvidence": "viewport-checks.json",
+  "motionEvidence": "motion-frame-check.json",
+  "osReducedMotionEmulated": false,
+  "publicDeployment": false,
+  "humanEditorialApproval": "pending user review"
+}
