@@ -52,3 +52,7 @@ Các thành phần đóng gói Sites của template được giữ nguyên. Chư
 Source: https://github.com/namcubacollab/landingpage-motion
 
 Vercel dùng preset Vite, `npm ci`, `npm run build`, xuất bản `dist/client`. Không cần biến môi trường. `node_modules`, `dist`, thông tin đăng nhập và cấu hình tài khoản Vercel không nằm trong source.
+
+Production: https://landingpage-motion.vercel.app
+
+Bản production đầu tiên được triển khai bằng Vercel CLI. GitHub push và kết nối tự deploy chưa hoàn tất vì đang chờ quyền xác thực.
